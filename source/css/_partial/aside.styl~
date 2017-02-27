@@ -54,7 +54,6 @@
       color color-theme
       transition color .5s
 
-//categories
 .category-list
   font-size 0.9em
   padding 15px 20px 
@@ -68,10 +67,10 @@
       content ')'
   ul, ol, dl
     list-style none
-  ul, ol, dl
-    margin-left 20px
-    li:before
-      content '> '
+    ul, ol, dl
+      margin-left 20px
+      li:before
+        content '> '
 //tag
 .tagslist
   margin 1em 0 0
